@@ -422,6 +422,9 @@ class SingleEpoch(object):
 
         return delta_v/self._growth
 
+""" DENSITY FLUCTUATIONS """
+
+  
     def rho_crit(self):
         """
         Critical density in h^2 solar masses per cubic Mpc.
