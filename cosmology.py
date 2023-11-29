@@ -1059,16 +1059,9 @@ class MultiEpoch(object):
             delta_k *= self.growth_factor(redshift)**2
         return delta_k
 
-    def linear_power(self, k, redshift=None):
-        """
-        Linear power spectrum P(k) in units Mpc^3/h^3 normalized to by sigma_8.
-
-        Args:
-            k: float array wave number at which to compute power spectrum.
-        Returns:
-            float array linear power spectrum P(k)
-        """
-        return 2.0*numpy.pi*numpy.pi*self.delta_k(k, redshift)/(k*k*k)
+"""
+Put your linear_power function here, include units in the docstring.
+"""
 
     def sigma_r(self, scale, redshift=None):
         """
